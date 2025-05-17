@@ -15,13 +15,12 @@ This chatbot helps users navigate the website more efficiently. You no longer ne
 - Asking which companies have visited the campus
 - Checking how many problems you've solved — even more specifically, how many medium-level problems
 All these or done by the bot, which navigates and fullfill the Query.
-
-<details> <summary><strong>Click to Expand Full Description</strong></summary> <br>
-  
 > 🛠 Built using the open-source project: **web-ui**
 
 > Web-Ui **REPO:** `https://github.com/browser-use/web-ui`, have used the API from the open-source project for the web-based-bot part of our project
 
+<details> <summary><strong>Click to Expand Full Description</strong></summary> <br>
+  
 This bot leverages a browser UI-based method to automate and perform these tasks.
   
 1. **Information Seeking:**
@@ -50,7 +49,8 @@ This bot leverages a browser UI-based method to automate and perform these tasks
 3.) Then click sign-up using google, and know when a new window pop-up. 
 4.) In the text field type "01nilavarasan@gmail.com" and click the submit button
 ```
-- **DEMO:**
+- **Execution Of Above PROMPT:**
+
 https://github.com/user-attachments/assets/bb21e530-232d-423e-9f1a-1667dee727fa
 
 2. **PROMPT-2** (_Complex_)
@@ -60,10 +60,13 @@ https://github.com/user-attachments/assets/bb21e530-232d-423e-9f1a-1667dee727fa
 3.) Know in that portal , wait till a human face appear in the screen. If appeared then wait 5 seconds. And then click capture button.
 4.) Know a new page will be loaded, then click companies button present in the sidebar.
 ```
+- **Execution Of Above PROMPT:**
+
 ![f705c3a0-d7b1-4bc7-adf2-cd721b7a50af](https://github.com/user-attachments/assets/47b3c22f-be35-4bf6-9e38-a5590067dea6)
 
-- In the similar way we can ask the Bot some query, and the bot executes the query by travelling/traversing/using the website.
-> As of know these bot is not integrated with the Main Website, but the bot works completely fine. Asking any query the bot fullfills it, just the integration of this browser-ui-model-API, need to be configured with the Bot in our application. And also the below pipe-line flow also need to be finished using langchain, the flow of prompt from the BOT.
+- In the similar way we can ask the Bot some query, and the bot executes the query by travelling/traversing/using , by interacting with the browser elements(scrool, click, read, write etc).
+> As of know these bot is not integrated with the Main Website, but the bot works completely fine. Asking any query the bot fullfills it, just the integration of this browser-ui-model-API, need to be configured with the Bot in our application. And also the below pipe-line flow also need to be finished using langchain, the flow of prompt from the BOT. 
+**_BOT IN PROGRESS_**
 
 ### AI-Powered ChatBot
 
