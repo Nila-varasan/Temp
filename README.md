@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/eccb0be8-ccb6-4042-8f20-5eba54639d03)![image](https://github.com/user-attachments/assets/2d4669eb-8c02-4a93-bd7d-4fda5b6d7430)
 ![final_image](https://github.com/user-attachments/assets/3fc6ddf1-bb99-4351-a363-88d967bd2e03)
 
 <p align="center">
@@ -7,7 +7,14 @@
 
 --- 
 # AI Integration
-- As part of pur project, AI plays a huge role. It is resposible for many tasks, automation few things. AI has helped our website to standout compared to all other websites
+- As part of our project, AI plays a huge role. It is resposible for many tasks, automation few things. AI has helped our website to standout compared to all other websites
+<p align="center">
+  <img src="https://img.shields.io/badge/gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="gemini"/>
+  <img src="https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white" alt="openai"/>
+  <img src="https://img.shields.io/badge/anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="anthropic"/>
+  <img src="https://img.shields.io/badge/browser--use-5A5A5A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="browser-use"/>
+  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
+</p>
 
 ### 🚀 AI-Powered Website Navigation ChatBot
 This chatbot helps users navigate the website more efficiently. You no longer need to waste time searching for a specific part of the application — just tell the bot what you want to do, and it will handle the task for you. Tasks can range from general to highly specific.
@@ -19,7 +26,7 @@ All these or done by the bot, which navigates and fullfill the Query.
 
 > Web-Ui **REPO:** `https://github.com/browser-use/web-ui`, have used the API from the open-source project for the web-based-bot part of our project
 
-<details> <summary><strong>Click to Expand Full Description</strong></summary> <br>
+<details> <summary><strong>Click to Expand Full Description Of BOT</strong></summary> <br>
   
 This bot leverages a browser UI-based method to automate and perform these tasks.
   
@@ -68,10 +75,44 @@ https://github.com/user-attachments/assets/bb21e530-232d-423e-9f1a-1667dee727fa
 > As of know these bot is not integrated with the Main Website, but the bot works completely fine. Asking any query the bot fullfills it, just the integration of this browser-ui-model-API, need to be configured with the Bot in our application. And also the below pipe-line flow also need to be finished using langchain, the flow of prompt from the BOT. 
 **_BOT IN PROGRESS_**
 
-### AI-Powered ChatBot
+### 🤖 AI-Powered General ChatBot
 
+<p align="center">
+<img src="https://img.shields.io/badge/pinecone-0EAD69?style=for-the-badge&logo=pinecone&logoColor=white" />
+<img src="https://img.shields.io/badge/huggingface-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/langchain-000000?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/langsmith-000000?style=for-the-badge&logo=langchain&logoColor=white" />
+</p>
+
+1. This chatbot functions like any general-purpose assistant, capable of handling a wide range of user queries. It supports both general knowledge questions and personalized queries based on user-specific data.
+- Users can ask questions on a variety of topics, including:
+  - **Learning topics:** “What is Big Data?”, “Explain the Two-Sum problem”, “What is the time complexity of this approach?”
+  - **Problem-solving guidance:** Debugging, Concept explanations, Strategy recommendations
+
+![Screenshot 2025-05-18 213617](https://github.com/user-attachments/assets/7c5069bf-40e8-4212-b345-558c0f7d9cb1)
+![image](https://github.com/user-attachments/assets/9faa607b-9f27-4972-9eb1-74776c8b55bb)
+
+https://github.com/user-attachments/assets/daa612dc-ffdd-430f-b5c5-8f68fec2f720
+
+
+
+> This Part works completely fine, integrated with Gemini-API.
+2. Also since the bot is powered by RAG, where to the RAG some of the data are also feed like. Like stats/data of the placement/company of all the years, also it has aceess to some of the data of the user. Not all data are shared to the RAG, since some data are sensitive. So only some of the neccesary features of the company/stats/current-uer are stored in the vector-DB, using this data the specific-user can ask questions like
+- "How many company have came this year with more then 12-lLPA", "How many jobs is posted by Google this year".
+- "How much problems i have solved in medium level", "How much companies i have applied", "How many companys i am elgibile , but have not applied".
+
+A spereate vector-DB is present for each user, so the bot can answer based on that Specific-User. -----> All this are done using RAG, and the pipeline is log/streamlined through langsmith. The data are automatailally updated in the RAG, when ever there is update in data of the user/company/placement. <--- ALl this pipiline are monitored using langsmith. 
+> This part is **IN-PROGRESS NOT FINISHED**, have finished the pipeline. Just need to intergrate the pipeline with the backend, then with frontend.
+
+### 🧑‍💻AI-BOT specifically For DSA-PROBLEMS:
+![image](https://github.com/user-attachments/assets/62c154b1-5d9b-41ee-8b31-08c07395d3b4)
+> **IN PROGRESS NOT COMPLETED**
 ---
 # The Making Of 🛠️
+
 
 <h3 align="center">
    ⚡⚡⚡ The Technology's Used ⚡⚡⚡
@@ -98,6 +139,7 @@ https://github.com/user-attachments/assets/bb21e530-232d-423e-9f1a-1667dee727fa
   <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/lucide--react-000000?style=for-the-badge&logo=lucide&logoColor=white" />
   <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/langsmith-000000?style=for-the-badge&logo=langchain&logoColor=white" />
 </p>
 
 ---
@@ -131,6 +173,11 @@ We have chosen to use **NoSQL databases** due to their scalability, speed, and e
 
 #### Overall MongoDb databases && Collections Present
 ![image](https://github.com/user-attachments/assets/c0e48a8b-5a5d-41ff-859d-82ad2037b680)
+#### Database Used In Each Page
+![image](https://github.com/user-attachments/assets/83fa53f3-3621-4fe3-87cc-5d1af1e49947)
+
+#### MongoDB Structure: Company
+![image](https://github.com/user-attachments/assets/243a2cb1-246d-42ea-8ca6-2744e1248d5b)
 #### MongoDB Structure: Blogs
 ![image](https://github.com/user-attachments/assets/50957a8f-45f7-4d35-878e-7cecdd502e40)
 #### Planned MongoDB Structure: User
@@ -168,7 +215,14 @@ We have also used Express.js to handle routing and middleware for the Node.js se
 
 ### Camera Authentication Mechanism
 ![image](https://github.com/user-attachments/assets/fc8491f5-5198-44a4-8af5-f5c388118d0c)
+### Mathematical Working Of Camera Authentication
 
+<p align="center">
+<img src="https://img.shields.io/badge/apache%20mllib-F87000?style=for-the-badge&logo=apachespark&logoColor=white" />
+<img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+</p>
+
+![image](https://github.com/user-attachments/assets/963c40f6-e74d-4aa5-b85a-27823f41b107)
 
 # 🚀 Setup Instructions
 
