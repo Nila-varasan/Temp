@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/eccb0be8-ccb6-4042-8f20-5eba54639d03)![image](https://github.com/user-attachments/assets/2d4669eb-8c02-4a93-bd7d-4fda5b6d7430)
 ![final_image](https://github.com/user-attachments/assets/3fc6ddf1-bb99-4351-a363-88d967bd2e03)
 
 <p align="center">
@@ -216,7 +215,6 @@ We have also used Express.js to handle routing and middleware for the Node.js se
 ### Camera Authentication Mechanism
 ![image](https://github.com/user-attachments/assets/fc8491f5-5198-44a4-8af5-f5c388118d0c)
 ### Mathematical Working Of Camera Authentication
-
 <p align="center">
 <img src="https://img.shields.io/badge/apache%20mllib-F87000?style=for-the-badge&logo=apachespark&logoColor=white" />
 <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
